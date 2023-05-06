@@ -11,8 +11,8 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <link rel="shortcut icon" href="Home/images/favicon.png" type="">
-      <title>kolchistore</title>
+      <link rel="shortcut icon" href="Home/images/ppoum.png" type="">
+      <title>DREAM STORE</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="Home/css/bootstrap.css" />
       <!-- font awesome style -->
