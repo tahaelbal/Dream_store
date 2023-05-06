@@ -12,7 +12,7 @@
 <nav class="navbar p-0 fixed-top d-flex flex-row">
     <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
       {{-- logo --}}
-      <a class="navbar-brand brand-logo-mini" href="index.html"><img src="Home/images/logooo.png" alt="logo" /></a>
+      <a class="navbar-brand brand-logo-mini" href="index.html"><img src="Home/images/ppoum.png" alt="logo" /></a>
     </div>
     {{-- end logo --}}
     <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">

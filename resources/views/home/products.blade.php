@@ -10,8 +10,8 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <link rel="shortcut icon" href="Home/images/logooo.png" type="">
-      <title>kolchistore</title>
+      <link rel="shortcut icon" href="Home/images/ppoum.png" type="">
+      <title>DREAM STORE</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="Home/css/bootstrap.css" />
       <!-- font awesome style -->
@@ -371,7 +371,7 @@
          <div class="container">
             <div class="row">
    
-               <div class="col-lg-3 blog-form">
+               <div class="col-lg-3 blog-form" >
                   {{-- <h2 class="blog-sidebar-title"><b>Cart</b></h2>
                   <hr/>
                   <p class="blog-sidebar-text">No products in the cart...</p> --}}
@@ -381,7 +381,7 @@
                   <h2 class="blog-sidebar-title"><b>Categories</b></h2>
                   <hr/>
                   @foreach ($category as $categorys)
-                  <a href="{{url('categories',$categorys->category_name )}}"><p class="blog-sidebar-list"><b><span class="list-icon"> > </span> {{$categorys->category_name}}</b></p></a>
+                  <a href="{{url('categories',$categorys->category_name )}}" ><p class="blog-sidebar-list"><b><span class="list-icon"> > </span> {{$categorys->category_name}}</b></p></a>
                   @endforeach
                </div>
                <div class="col-lg-9" style="padding-left: 30px;">
@@ -403,7 +403,7 @@
                         <div class="card">
                            
                            <div class="card-body text-center">
-                              <img src="product/{{$products->image}}" class="product-image">
+                              <img src="product/{{$products->image}}"  class="product-image">
                               <h5 class="card-title" style="color:#000"><b>{{$products->title}}</b></h5>
                               <p class="card-text small">{{$products->description}}</p>
 
@@ -420,13 +420,13 @@
                                     {{ csrf_field() }}
                                     <button type="submit" class="btn btn-dark" style="margin-bottom: 10px"> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-plus-fill" viewBox="0 0 16 16">
                                        <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM8.5 8a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V12a.5.5 0 0 0 1 0v-1.5H10a.5.5 0 0 0 0-1H8.5V8z"/>
-                                    </svg></span> Add to Cart</button>
+                                    </svg></span> Add to cart</button>
                                     {{-- <input type="submit" value="Add to cart" class="btn btn-Info link bg-info button-text" style="margin-bottom: 10px" > --}}
                                     <a style="margin-bottom: 10px" href="{{url('product_details',$products->id)}}"  class="btn btn-dark"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                                        <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
                                        <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
                                     </svg></a>
-                                    {{-- <input  type="number" name="quentity" min="1" value="1" style="width: 70px" > --}}
+                                    <input  type="number" name="quentity" min="1" value="1" style="width: 70px" >
                               </form>
                               
                            </div>

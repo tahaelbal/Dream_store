@@ -4,7 +4,7 @@
     <base href="/public">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="shortcut Icon" type="image/png" href="Home/images/econe1.png">
+    <link rel="shortcut Icon" type="image/png" href="Home/images/ppoum.png">
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="Home/css/bootstrap.css" />
     <!-- font awesome style -->
@@ -13,7 +13,7 @@
     <link href="Home/css/style.css" rel="stylesheet" />
     <!-- responsive style -->
     <link href="Home/css/responsive.css" rel="stylesheet" />
-    <title>kolchistore</title>
+    <title>DREAM STORE</title>
 </head>
 <body>
     {{-- @include('home.header') --}}

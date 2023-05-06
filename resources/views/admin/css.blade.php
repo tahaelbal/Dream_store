@@ -17,4 +17,4 @@
    <!-- Layout styles -->
    <link rel="stylesheet" href="admin/assets/css/style.css">
    <!-- End layout styles -->
-   <link rel="shortcut icon" href="Home/images/logooo.png" />
+   <link rel="shortcut icon" href="Home/images/ppoum.png" />

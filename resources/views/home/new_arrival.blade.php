@@ -12,11 +12,13 @@
                    </h2>
                 </div>
                 <p style="margin-top: 20px;margin-bottom: 30px;">
-                   Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
+                  Welcome to our clothing sales site! We are excited to introduce our latest collection of new arrivals. Our team has worked hard to curate a stunning selection of clothing pieces that are perfect for the upcoming season. <br>
+                  Our new arrivals feature the latest fashion trends and are made from high-quality materials to ensure both style and comfort. We offer a wide range of sizes and styles to accommodate all body types and personal preferences. <br>
+                  Thank you for choosing our clothing sales site for your fashion needs. We can't wait to see you rock our latest arrivals!
                 </p>
-                <button><a href="">
+                {{-- <button><a href="">
                   Shop Now
-                  </a></button>
+                  </a></button> --}}
              </div>
           </div>
        </div>

@@ -10,8 +10,8 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <link rel="shortcut Icon" type="image/png" href="Home/images/logooo.png">
-      <title>kolchistore</title>
+      <link rel="shortcut Icon" type="image/png" href="Home/images/ppoum.png" >
+      <title>DREAM STORE</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="Home/css/bootstrap.css" />
       <!-- font awesome style -->

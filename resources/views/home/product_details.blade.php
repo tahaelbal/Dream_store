@@ -11,8 +11,8 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <link rel="shortcut icon" href="Home/images/logooo.png" type="">
-      <title>kolchistore</title>
+      <link rel="shortcut icon" href="Home/images/ppoum.png" type="">
+      <title>DREAM STORE</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="Home/css/bootstrap.css" />
       <!-- font awesome style -->
@@ -204,13 +204,14 @@
                         <div class="preview col-md-6">
 
                             <div class="preview-pic tab-content">
-                            <div class="tab-pane active" id="pic-1"><img src="product/{{$product->image}}" /></div>
+                            <div class="tab-pane active" id="pic-1"><img src="product/{{$product->image}}"  width="450px" height="450px"/></div>
                             </div>
                         </div>
                         <div class="details col-md-6">
                             <h3 class="product-title">{{$product->title}}</h3>
                             <div class="rating">
                                 <div class="stars">
+                                  <hr>
                                     <span style="color: #e9c80e" class="fa fa-star checked"></span>
                                     <span style="color: #e9c80e" class="fa fa-star checked"></span>
                                     <span style="color: #e9c80e" class="fa fa-star checked"></span>
@@ -220,6 +221,7 @@
                                 <span class="review-no">41 reviews</span>
                             </div>
                             <h3>{{$product->category}}</h3>
+                            
                             <p class="product-description">{{$product->description}}</p>
                             @if ($product->discount_price!=null)
                             <h4 class="price" >Discount price : 
@@ -244,8 +246,14 @@
                               
                               <form action="{{ url('add_to_cart',$product->id) }}" method="post">
                                 {{ csrf_field() }}
-                                <input type="submit" value="Add to cart" style="margin-bottom: 10px">
+                                {{-- <input type="submit" value="Add to cart" style="margin-bottom: 10px"> --}}
+                                <button type="submit" class="btn btn-dark" style="margin-bottom: 10px"> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-plus-fill" viewBox="0 0 16 16">
+                                  <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM8.5 8a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V12a.5.5 0 0 0 1 0v-1.5H10a.5.5 0 0 0 0-1H8.5V8z"/>
+                               </svg></span> Add to Cart</button>
                                 <input  type="number" name="quentity" min="1" value="1" style="width: 90px">
+                             
+                               
+                                
                                
                           </form>
                                 {{-- <button class="add-to-cart btn btn-default" type="button">add to cart</button>
@@ -274,7 +282,7 @@
 
 
 
-
+      <br>
       <!-- footer start -->
       @include('home.footer');
       <!-- footer end -->

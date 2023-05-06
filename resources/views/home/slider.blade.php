@@ -1,6 +1,6 @@
 <section class="slider_section ">
     <div class="slider_bg_box">
-       <img src="Home/images/" alt=""  >
+       <img src="Home/images/vv.png" alt="" >
     </div>
     <div id="customCarousel1" class="carousel slide" data-ride="carousel">
        <div class="carousel-inner">
@@ -11,14 +11,17 @@
                       <div class="detail-box">
                          <h1>
                             <span>
-                            Sale 40% Off
+                            Sale 20% Off
                             </span>
                             <br>
                             On Everything
                          </h1>
                          <p>
                            Discover DREAM STORE! Trends, but also style, shopping, beauty.
-                           This site is easy to navigate and offers a smooth user experience. It offers advanced search options to help customers quickly find the products they are looking for. As well as it offers a wide range of products at affordable prices for women, men and children.
+                           This site is easy to navigate and offers a smooth user experience. <br> 
+                           It offers advanced search options to help customers quickly<br> find 
+                           the products they are looking for. As well as it offers a wide  <br> range of products 
+                              at affordable prices for women, men and children. 
                            
                          </p>
                          <div class="btn-box">
